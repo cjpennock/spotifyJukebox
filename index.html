@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spotify Jukebox</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/app.css">
+</head>
+<body id="soundcloud-player">
+	<!-- left column -->
+	<div class="col__left js-playlist">
+	</div>
+	<!-- right side -->
+	<div class="col__right js-playlist">
+		<div class="main">
+			<div class="title">
+				<h1>Spotify Jukebox</h1>
+			</div>
+			<div class="input">
+			<!-- input -->
+				<input type="text" placeholder="Search for a song or artist..." class="js-searchfield input__search">
+				<!-- search button -->
+				<button class="js-button">Search</button>
+				<!-- results section -->
+			</div>
+			<div class="four column centered row search-results js-search-results ui cards">
+				<div class="column">
+				</div>
+        	</div>
+		</div>
+	</div>
+<script src="javascript/app.js"></script>
+<script src="javascript/spotifyAPI.js"></script>
+<script src="javascript/playlistManager.js"></script>
+</script>
+</body>
+</html>
